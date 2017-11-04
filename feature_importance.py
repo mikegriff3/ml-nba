@@ -18,4 +18,5 @@ model.fit(X, y)
 
 for i in range(len(model.feature_importances_)):
   print round(model.feature_importances_[i], 3) * 10, df.columns[i + 1] 
+
    
